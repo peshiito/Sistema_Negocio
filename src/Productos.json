@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "titulo": "Coca-Cola 1.5L",
+    "descripcion": "Gaseosa cola clásica, sabor original elaborada en Argentina.",
+    "precio": 1300,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 2,
+    "titulo": "Pepsi 2L",
+    "descripcion": "Bebida cola refrescante, sabor intenso y burbujeante.",
+    "precio": 1200,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 3,
+    "titulo": "Sprite 1.5L",
+    "descripcion": "Gaseosa de lima-limón sin colorantes ni cafeína.",
+    "precio": 1100,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 4,
+    "titulo": "Fanta Naranja 1.5L",
+    "descripcion": "Gaseosa sabor naranja con burbujas y gusto frutal.",
+    "precio": 1150,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 5,
+    "titulo": "Manaos Cola 2.25L",
+    "descripcion": "Gaseosa argentina de sabor cola, económica y popular.",
+    "precio": 900,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 6,
+    "titulo": "Paso de los Toros Tónica 1L",
+    "descripcion": "Gaseosa tónica argentina con sabor amargo clásico.",
+    "precio": 950,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 7,
+    "titulo": "Villavicencio 1.5L",
+    "descripcion": "Agua mineral natural proveniente de Mendoza.",
+    "precio": 700,
+    "categoria": "Agua",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 8,
+    "titulo": "Eco de los Andes 1.5L",
+    "descripcion": "Agua mineral pura, baja en sodio, ideal para todos los días.",
+    "precio": 750,
+    "categoria": "Agua",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 9,
+    "titulo": "Levité Limón 1.5L",
+    "descripcion": "Agua saborizada con limón, sin gas, refrescante y ligera.",
+    "precio": 950,
+    "categoria": "Agua saborizada",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 10,
+    "titulo": "Levité Pomelo 1.5L",
+    "descripcion": "Agua saborizada de pomelo, sin azúcar agregada.",
+    "precio": 950,
+    "categoria": "Agua saborizada",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 11,
+    "titulo": "Cepita Naranja 1L",
+    "descripcion": "Jugo de naranja sin conservantes, elaborado con frutas naturales.",
+    "precio": 1300,
+    "categoria": "Jugo",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 12,
+    "titulo": "Baggio Multifruta 1L",
+    "descripcion": "Jugo de frutas variadas con vitamina C y sabor tropical.",
+    "precio": 1200,
+    "categoria": "Jugo",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 13,
+    "titulo": "Tang Durazno",
+    "descripcion": "Polvo para preparar jugo sabor durazno, rendidor y económico.",
+    "precio": 250,
+    "categoria": "Jugo en polvo",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 14,
+    "titulo": "Gatorade Naranja 500ml",
+    "descripcion": "Bebida isotónica para rehidratarse después del deporte.",
+    "precio": 950,
+    "categoria": "Deportiva",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 15,
+    "titulo": "Powerade Azul 500ml",
+    "descripcion": "Bebida deportiva con electrolitos y sabor a frutas.",
+    "precio": 950,
+    "categoria": "Deportiva",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 16,
+    "titulo": "Speed Unlimited 473ml",
+    "descripcion": "Energizante argentino con cafeína y taurina.",
+    "precio": 800,
+    "categoria": "Energizante",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 17,
+    "titulo": "Red Bull 250ml",
+    "descripcion": "Bebida energizante internacional, clásica y potente.",
+    "precio": 1300,
+    "categoria": "Energizante",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 18,
+    "titulo": "Monster Energy Verde 473ml",
+    "descripcion": "Energizante con sabor cítrico y alto contenido de cafeína.",
+    "precio": 1400,
+    "categoria": "Energizante",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 19,
+    "titulo": "Fernet Branca 750ml",
+    "descripcion": "Bebida amarga argentina con hierbas naturales. Ideal con cola.",
+    "precio": 7800,
+    "categoria": "Alcohol",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 20,
+    "titulo": "Cinzano Rosso 950ml",
+    "descripcion": "Vermouth clásico argentino, sabor dulce y especiado.",
+    "precio": 6200,
+    "categoria": "Alcohol",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 21,
+    "titulo": "Gancia Americano 950ml",
+    "descripcion": "Aperitivo tradicional argentino, ideal para cócteles.",
+    "precio": 5900,
+    "categoria": "Alcohol",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 22,
+    "titulo": "Campari 750ml",
+    "descripcion": "Bebida amarga italiana muy consumida en Argentina.",
+    "precio": 8500,
+    "categoria": "Alcohol",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 23,
+    "titulo": "Smirnoff Vodka 750ml",
+    "descripcion": "Vodka clásico, ideal para tragos con jugo o energizante.",
+    "precio": 8900,
+    "categoria": "Alcohol",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 24,
+    "titulo": "Quilmes Cristal 1L",
+    "descripcion": "Cerveza argentina rubia, sabor suave y refrescante.",
+    "precio": 1800,
+    "categoria": "Cerveza",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 25,
+    "titulo": "Andes IPA 473ml",
+    "descripcion": "Cerveza mendocina tipo IPA, con lúpulo intenso y aroma cítrico.",
+    "precio": 1200,
+    "categoria": "Cerveza",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 26,
+    "titulo": "Stella Artois 473ml",
+    "descripcion": "Cerveza premium tipo lager, de cuerpo medio y espuma blanca.",
+    "precio": 1300,
+    "categoria": "Cerveza",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 27,
+    "titulo": "Brahma 1L",
+    "descripcion": "Cerveza rubia suave, ideal para compartir en reuniones.",
+    "precio": 1500,
+    "categoria": "Cerveza",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 28,
+    "titulo": "Schneider 473ml",
+    "descripcion": "Cerveza argentina con buen balance de malta y amargor.",
+    "precio": 1150,
+    "categoria": "Cerveza",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 29,
+    "titulo": "Isenbeck 1L",
+    "descripcion": "Cerveza argentina con tradición alemana, sabor más seco.",
+    "precio": 1550,
+    "categoria": "Cerveza",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 30,
+    "titulo": "Patagonia Amber Lager 473ml",
+    "descripcion": "Cerveza artesanal argentina con notas tostadas y caramelo.",
+    "precio": 1600,
+    "categoria": "Cerveza artesanal",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 31,
+    "titulo": "Norteña 1L",
+    "descripcion": "Cerveza uruguaya muy popular en Argentina.",
+    "precio": 1600,
+    "categoria": "Cerveza",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 32,
+    "titulo": "Toro Tinto 1L",
+    "descripcion": "Vino tinto económico argentino, clásico de mesa.",
+    "precio": 1600,
+    "categoria": "Vino",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 33,
+    "titulo": "Navarro Correas Malbec 750ml",
+    "descripcion": "Vino tinto de Mendoza, cuerpo medio y notas de frutas rojas.",
+    "precio": 5200,
+    "categoria": "Vino",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 34,
+    "titulo": "Trumpeter Cabernet Sauvignon",
+    "descripcion": "Vino tinto argentino con cuerpo, ideal para carnes rojas.",
+    "precio": 7800,
+    "categoria": "Vino",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 35,
+    "titulo": "Norton Blanco Dulce 750ml",
+    "descripcion": "Vino blanco dulce, ideal para postres y ocasiones especiales.",
+    "precio": 6500,
+    "categoria": "Vino",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 36,
+    "titulo": "Rutini Malbec 750ml",
+    "descripcion": "Vino premium de Mendoza, aroma intenso y excelente cuerpo.",
+    "precio": 13000,
+    "categoria": "Vino",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 37,
+    "titulo": "Chandon Extra Brut 750ml",
+    "descripcion": "Espumante argentino fino, con burbujas persistentes y elegantes.",
+    "precio": 10500,
+    "categoria": "Espumante",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 38,
+    "titulo": "Freixenet Ice 750ml",
+    "descripcion": "Espumante dulce ideal para tomar con hielo y frutas.",
+    "precio": 9800,
+    "categoria": "Espumante",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 39,
+    "titulo": "Cinzano Bianco 950ml",
+    "descripcion": "Vermouth blanco suave y aromático.",
+    "precio": 6200,
+    "categoria": "Alcohol",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 40,
+    "titulo": "Hesperidina 750ml",
+    "descripcion": "Licor argentino de naranja, clásico y con historia.",
+    "precio": 7000,
+    "categoria": "Licor",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 41,
+    "titulo": "Coca-Cola Sin Azúcar 1.5L",
+    "descripcion": "Gaseosa cola sin azúcar, con el sabor clásico de siempre.",
+    "precio": 1300,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 42,
+    "titulo": "Manaos Pomelo 2.25L",
+    "descripcion": "Gaseosa sabor pomelo, dulce y refrescante.",
+    "precio": 900,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 43,
+    "titulo": "Dr. Lemon Vodka 473ml",
+    "descripcion": "Trago listo con vodka y limón, práctico para llevar.",
+    "precio": 1200,
+    "categoria": "Bebida lista",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 44,
+    "titulo": "Smirnoff Ice 275ml",
+    "descripcion": "Trago listo sabor limón, refrescante y ligero.",
+    "precio": 1300,
+    "categoria": "Bebida lista",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 45,
+    "titulo": "Prity Pomelo 2.25L",
+    "descripcion": "Gaseosa económica argentina sabor pomelo.",
+    "precio": 850,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 46,
+    "titulo": "Ginger Ale Schweppes 1L",
+    "descripcion": "Gaseosa sabor jengibre, ideal para tragos o sola.",
+    "precio": 950,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 47,
+    "titulo": "Baggio Fresh Naranja 2L",
+    "descripcion": "Bebida sin gas con sabor a naranja, económica y sabrosa.",
+    "precio": 850,
+    "categoria": "Jugo",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 48,
+    "titulo": "Cepita del Valle Durazno 1L",
+    "descripcion": "Jugo natural de durazno, sin conservantes.",
+    "precio": 1250,
+    "categoria": "Jugo",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 49,
+    "titulo": "Coca-Cola Light 1.5L",
+    "descripcion": "Versión ligera de Coca-Cola, menos calorías y mismo sabor.",
+    "precio": 1300,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 50,
+    "titulo": "Villavicencio con gas 1.5L",
+    "descripcion": "Agua mineral con gas natural, de los Andes argentinos.",
+    "precio": 800,
+    "categoria": "Agua",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 51,
+    "titulo": "Bon Aqua Limón 500ml",
+    "descripcion": "Agua saborizada con toque de limón, sin azúcar.",
+    "precio": 700,
+    "categoria": "Agua saborizada",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 52,
+    "titulo": "Speed Black 473ml",
+    "descripcion": "Versión intensa de Speed con más cafeína.",
+    "precio": 850,
+    "categoria": "Energizante",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 53,
+    "titulo": "Monster Mango Loco 473ml",
+    "descripcion": "Energizante sabor mango tropical, dulce y potente.",
+    "precio": 1400,
+    "categoria": "Energizante",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 54,
+    "titulo": "Cunnington Pomelo 2.25L",
+    "descripcion": "Gaseosa argentina sabor pomelo, ideal para mezclar con gin.",
+    "precio": 850,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 55,
+    "titulo": "Gancia Hibiscus 750ml",
+    "descripcion": "Variante floral del clásico Gancia con toque moderno.",
+    "precio": 6300,
+    "categoria": "Alcohol",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 56,
+    "titulo": "Branca Menta 750ml",
+    "descripcion": "Versión mentolada de Fernet Branca, sabor dulce y refrescante.",
+    "precio": 7900,
+    "categoria": "Alcohol",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 57,
+    "titulo": "Jägermeister 750ml",
+    "descripcion": "Licor alemán muy consumido en fiestas argentinas.",
+    "precio": 9800,
+    "categoria": "Licor",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 58,
+    "titulo": "Aperol 750ml",
+    "descripcion": "Aperitivo con sabor a naranja amarga, base del famoso spritz.",
+    "precio": 8700,
+    "categoria": "Alcohol",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 59,
+    "titulo": "Baggio Kids Manzana 200ml",
+    "descripcion": "Jugo natural para chicos, sabor manzana.",
+    "precio": 400,
+    "categoria": "Jugo",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 60,
+    "titulo": "Cepita Tropical 1L",
+    "descripcion": "Jugo de frutas tropicales, sin azúcar agregada.",
+    "precio": 1300,
+    "categoria": "Jugo",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 61,
+    "titulo": "Gatorade Uva 500ml",
+    "descripcion": "Bebida isotónica con sabor a uva.",
+    "precio": 950,
+    "categoria": "Deportiva",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 62,
+    "titulo": "Powerade Cítrus 500ml",
+    "descripcion": "Rehidratante sabor cítrico con electrolitos.",
+    "precio": 950,
+    "categoria": "Deportiva",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 63,
+    "titulo": "Coca-Cola Mini 237ml",
+    "descripcion": "Versión pequeña de Coca-Cola, ideal para llevar.",
+    "precio": 500,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 64,
+    "titulo": "Pepsi Black 1.5L",
+    "descripcion": "Versión sin azúcar de Pepsi, refrescante y moderna.",
+    "precio": 1200,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 65,
+    "titulo": "Cerveza Patagonia Bohemian Pilsener 473ml",
+    "descripcion": "Cerveza artesanal con notas florales y sabor equilibrado.",
+    "precio": 1600,
+    "categoria": "Cerveza artesanal",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 66,
+    "titulo": "Cerveza Berlina IPA 473ml",
+    "descripcion": "Cerveza artesanal de Bariloche, sabor fuerte y lupulado.",
+    "precio": 1700,
+    "categoria": "Cerveza artesanal",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 67,
+    "titulo": "Cerveza Temple Honey 473ml",
+    "descripcion": "Cerveza artesanal con miel, sabor suave y dulce.",
+    "precio": 1700,
+    "categoria": "Cerveza artesanal",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 68,
+    "titulo": "Vino Alma Mora Malbec 750ml",
+    "descripcion": "Vino tinto con cuerpo medio y taninos suaves.",
+    "precio": 6000,
+    "categoria": "Vino",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 69,
+    "titulo": "Vino Don David Malbec 750ml",
+    "descripcion": "Vino salteño con aroma frutado y notas de vainilla.",
+    "precio": 7200,
+    "categoria": "Vino",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 70,
+    "titulo": "Cerveza Andes Negra 473ml",
+    "descripcion": "Cerveza oscura con notas tostadas y amargor moderado.",
+    "precio": 1300,
+    "categoria": "Cerveza",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 71,
+    "titulo": "Levité Manzana 1.5L",
+    "descripcion": "Agua saborizada con manzana, sin gas.",
+    "precio": 950,
+    "categoria": "Agua saborizada",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 72,
+    "titulo": "Aquarius Pera 1.5L",
+    "descripcion": "Agua saborizada ligera con toque de pera.",
+    "precio": 900,
+    "categoria": "Agua saborizada",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 73,
+    "titulo": "Manaos Lima Limón 2.25L",
+    "descripcion": "Gaseosa sabor lima-limón, burbujeante y económica.",
+    "precio": 900,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 74,
+    "titulo": "Cunnington Cola 2.25L",
+    "descripcion": "Gaseosa argentina sabor cola, buena relación precio-calidad.",
+    "precio": 850,
+    "categoria": "Gaseosa",
+    "image": "/assets/bebida.png"
+  },
+  {
+    "id": 75,
+    "titulo": "Villavicencio Kids 500ml",
+    "descripcion": "Agua natural sin gas, especial para niños.",
+    "precio": 600,
+    "categoria": "Agua",
+    "image": "/assets/bebida.png"
+  }
+]
