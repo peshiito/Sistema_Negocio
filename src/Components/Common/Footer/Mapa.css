@@ -1,0 +1,204 @@
+/* Mapa.css actualizado */
+.mapa-container {
+  background: rgba(255, 255, 255, 0.02);
+  color: white;
+  padding: 3rem 2rem;
+  position: relative;
+}
+
+.mapa-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ff6b35, transparent);
+}
+
+.mapa-container h3 {
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.mapa-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.mapa-frame {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.mapa-frame:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+}
+
+.mapa-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.direccion-card {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 107, 53, 0.1),
+    rgba(255, 142, 83, 0.05)
+  );
+  padding: 2rem;
+  border-radius: 16px;
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  border: 1px solid rgba(255, 107, 53, 0.2);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.direccion-card:hover {
+  border-color: rgba(255, 107, 53, 0.4);
+  transform: translateX(5px);
+}
+
+.marker-icon {
+  font-size: 1.8rem;
+  background: linear-gradient(135deg, #ff6b35, #ff8e53);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(255, 107, 53, 0.3);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.direccion-text h4 {
+  color: #ff6b35;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.direccion-text p {
+  color: #cccccc;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.horarios {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.horarios p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  color: #b0b0b0;
+}
+
+.horarios p:first-child {
+  color: #ff6b35;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.direccion-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #ff6b35, #ff8e53);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(255, 107, 53, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.direccion-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.5s;
+}
+
+.direccion-btn:hover::before {
+  left: 100%;
+}
+
+.direccion-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(255, 107, 53, 0.4);
+}
+
+/* Responsive para Mapa */
+@media (max-width: 968px) {
+  .mapa-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .mapa-container {
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .mapa-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .direccion-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .mapa-container h3 {
+    font-size: 1.5rem;
+  }
+}
